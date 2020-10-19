@@ -1,0 +1,6 @@
+#import <Flutter/Flutter.h>
+
+@interface CsvParserPlugin : NSObject<FlutterPlugin>
+@end
+
+// --- Library API below ---

@@ -1,0 +1,25 @@
+[package]
+name = "csv_parser"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "csv_parser"
+# this is needed to build for iOS and Android.
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+csv = "1.1"
+encoding_rs = "0.8.24"
+serde = "^1.0.0"
+serde_json = "^1.0.57"
+serde_derive = "1.0.115"
+
+# this dependency is only needed for Android.
+[target.'cfg(target_os = "android")'.dependencies]
+jni = { version = "0.13.1", default-features = false }
+
+
+[build-dependencies]
+cbindgen = "0.14.3"
+dart-bindgen = "0.1.7"

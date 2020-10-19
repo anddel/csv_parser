@@ -1,0 +1,5 @@
+id,NAME,SHAREHOLDERTYPE,INTERESTCHANGED,SHARE 1 ID,SHARE 1 COMPANY ID,SHARE 1 COMPANY COMPANYNAME,SHARE 1 SHARETYPE,SHARE 1 AMOUNT,SHARE 1 PRICEOFONESHARE,SHARE 2 ID,SHARE 2 COMPANY ID,SHARE 2 COMPANY COMPANYNAME,SHARE 2 SHARETYPE,SHARE 2 AMOUNT,SHARE 2 PRICEOFONESHARE
+767,Dirk Sebald,board member,-7.0,1843,0,,common shares,50,100.0,3653,0,,preferred shares,100,100.0
+1467,Dr. Christian Wilk,shareholder,-2.0,7570,0,,preferred shares,200,100.0,,,,,,
+1982,Dr. Patrick Mukherjee,shareholder,-1.0,819,0,,preferred shares,400,100.0,5504,0,,common shares,300,100.0
+6644,Johannes Schneebacher,shareholder,0.0,3662,0,,common shares,600,100.0,6708,0,,preferred shares,350,100.0
